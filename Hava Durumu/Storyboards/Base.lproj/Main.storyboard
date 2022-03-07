@@ -20,15 +20,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="g2c-D2-kHc">
                         <nil key="title"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="ULK-6v-Xvw">
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="ULK-6v-Xvw">
                             <rect key="frame" x="139.5" y="6" width="135" height="32"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="Günlük"/>
                                 <segment title="Haftalık"/>
                             </segments>
+                            <connections>
+                                <action selector="segmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="dM5-yt-vv8"/>
+                            </connections>
                         </segmentedControl>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segmentedControl" destination="ULK-6v-Xvw" id="bfv-kD-fVe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -298,6 +304,10 @@
                             <constraint firstItem="g3v-MU-XA2" firstAttribute="top" secondItem="UHM-Ov-ulr" secondAttribute="bottom" constant="50" id="iVx-7m-uQy"/>
                             <constraint firstItem="KTe-Jm-uuA" firstAttribute="trailing" secondItem="g3v-MU-XA2" secondAttribute="trailing" constant="20" id="j0E-1X-5RX"/>
                         </constraints>
+                        <connections>
+                            <outlet property="dateLabel" destination="Hcn-qD-bQD" id="mlQ-Wh-Cgw"/>
+                            <outlet property="weatherIconImageView" destination="Rtw-Iz-HzF" id="O1B-TK-GR3"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qOS-NF-eXE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
