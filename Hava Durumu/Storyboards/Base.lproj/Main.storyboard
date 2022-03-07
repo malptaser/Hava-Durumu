@@ -388,6 +388,12 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <accessibility key="accessibilityConfiguration" identifier="DayWeatherCell"/>
+                                <connections>
+                                    <outlet property="dayNameLabel" destination="cnJ-DU-5u6" id="6TZ-gZ-eUt"/>
+                                    <outlet property="iconImageView" destination="BWZ-iu-lPR" id="419-ZK-BNw"/>
+                                    <outlet property="maximumTemperatureLabel" destination="GSs-ig-db0" id="EDR-Gq-8z4"/>
+                                    <outlet property="minimumTemperatureLabel" destination="MKg-rY-0L9" id="Iz4-Km-Kep"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

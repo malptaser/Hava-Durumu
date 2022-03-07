@@ -11,5 +11,9 @@ class DayWeatherTableViewCell: UITableViewCell {
 
     // MARK: - UI Elements
     
+        @IBOutlet weak var dayNameLabel: UILabel!
+        @IBOutlet weak var iconImageView: UIImageView!
+        @IBOutlet weak var maximumTemperatureLabel: UILabel!
+        @IBOutlet weak var minimumTemperatureLabel: UILabel!
     // MARK: - Functions
 }
