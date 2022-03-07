@@ -305,8 +305,17 @@
                             <constraint firstItem="KTe-Jm-uuA" firstAttribute="trailing" secondItem="g3v-MU-XA2" secondAttribute="trailing" constant="20" id="j0E-1X-5RX"/>
                         </constraints>
                         <connections>
+                            <outlet property="cityNameLabel" destination="L8K-R2-5zJ" id="IdQ-Uh-2mk"/>
                             <outlet property="dateLabel" destination="Hcn-qD-bQD" id="mlQ-Wh-Cgw"/>
+                            <outlet property="humidityLabel" destination="gvI-se-sEn" id="2i8-5S-kSk"/>
+                            <outlet property="maximumTemperatureLabel" destination="TWf-pW-UuM" id="0Op-33-yfz"/>
+                            <outlet property="minimumTemperatureLabel" destination="PvW-za-tII" id="bTm-pj-UPi"/>
+                            <outlet property="temperatureLabel" destination="6s2-Wq-j1Q" id="0qU-gU-fNK"/>
+                            <outlet property="uvIndexLabel" destination="sk5-6h-jCV" id="iuA-dH-iOM"/>
                             <outlet property="weatherIconImageView" destination="Rtw-Iz-HzF" id="O1B-TK-GR3"/>
+                            <outlet property="weatherStatusLabel" destination="5q9-CD-qwb" id="86j-Bv-uE2"/>
+                            <outlet property="windDirectionLabel" destination="pTp-vr-vEo" id="v8f-4Z-XhG"/>
+                            <outlet property="windSpeedLabel" destination="rPR-de-TDl" id="cXE-yq-ZvL"/>
                         </connections>
                     </view>
                 </viewController>
